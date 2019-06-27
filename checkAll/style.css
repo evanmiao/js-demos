@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+ul{
+    width:120px;
+    padding:10px 5px;
+    margin: 20px auto;
+    border:1px solid #666;
+    border-radius:5px;
+    background:#fafafa;
+    list-style: none;
+}
+li{
+    padding-bottom:10px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #09f;
+    background-color:#09f;
+    color: #fff;
+}
+.btn:hover{
+    background-color:red;
+}
