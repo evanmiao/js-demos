@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mask {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    z-index: 10;
+}
+.box {
+    width: 300px;
+    border: 1px solid #444;
+    position: absolute;
+    z-index: 20;
+}
+.box-header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #444;
+    background-color: #f4f4f4;
+    text-align: center;
+    cursor: move;
+}
+.box-content {
+    height: 250px;
+    background-color: #fff;
+}
