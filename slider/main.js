@@ -49,14 +49,15 @@ window.onload = function () {
     left.onclick = function () {
         index--;
         if (index < 0) {
+            // 图片滑动到第一张时，跳转到最后一张，再滑动到前一张
+            imgList.style.left = - (imgArr.length - 1) * imgWidth + "px";
             index = imgArr.length - 2;
         }
-        var target = -imgWidth * index;
-        move(imgList, "left", target, 100)
+        move(imgList, "left", - index * imgWidth, 100)
         for (i = 0; i < btns.length; i++) {
             btns[i].className = "";
         }
-        btns[index].className = "color";
+        btns[index % 4].className = "color";
     };
     right.onclick = function () {
         // 向右切换与自动切换一样 直接调用
