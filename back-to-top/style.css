@@ -1,0 +1,18 @@
+.goTop {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.box {
+    width: 300px;
+    margin: 20px auto;
+}
