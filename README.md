@@ -2,6 +2,7 @@
 日常练习
 
 ## demo预览地址
+- [两侧跟随广告](http://evanmiao.github.io/js-demos/scroll-follow/)
 - [回到顶部](http://evanmiao.github.io/js-demos/back-to-top/)
 - [整屏滚动](http://evanmiao.github.io/js-demos/page-scroll/)
 - [轮播图](http://evanmiao.github.io/js-demos/slider/)
