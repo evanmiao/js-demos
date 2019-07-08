@@ -1,0 +1,24 @@
+.box {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ad {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    background: #ccc;
+}
+
+.ad-1 {
+    left: 10%;
+}
+
+.ad-2 {
+    right: 10%;
+}
