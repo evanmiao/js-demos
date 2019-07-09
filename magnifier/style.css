@@ -1,0 +1,39 @@
+.box {
+    width: 964px;
+    position: relative;
+}
+
+.small-box {
+    width: 480px;
+    height: 318px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.mask {
+    width: 240px;
+    height: 159px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 0, 0.4);
+    cursor: move;
+    display: none;
+}
+
+.big-box {
+    width: 480px;
+    height: 318px;
+    position: absolute;
+    top: 0;
+    left: 490px;
+    border: 1px solid black;
+    display: none;
+    overflow: hidden;
+}
+
+.big-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
