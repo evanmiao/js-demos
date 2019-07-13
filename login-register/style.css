@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 顶部 */
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 80%;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 10%;
+    background: #222;
+}
+
+/* 登陆/注册链接 */
+.top a {
+    float: right;
+    width: 100px;
+    height: 70px;
+    color: #83d0f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: #fff;
+}
+
+/* 遮罩层 */
+.mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+}
+
+/* 弹出层 */
+.layer {
+    position: fixed;
+    z-index: 3;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+
+.layer .title {
+    font-size:20px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.layer .item {
+    margin:20px auto;
+}
+
+.layer .item span {
+    margin-right: 5px;
+    color: #888;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+.layer .item input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 5px;
+    width: 250px;
+}
+
+/* 错误信息 */
+.layer p {
+    color: #f00;
+    margin-bottom: 20px;
+}
+
+/* 弹出层关闭按钮 */
+.layer .close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #eee;
+}
+
+.layer .close:hover {
+    color: #fff;
+    background: #83d0f2;
+    cursor: pointer;
+}
+
+/* 确认按钮 */
+.layer button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #83d0f2;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(90deg, #83d0f2, #83d0f2, #222, #222);
+    background:    -moz-linear-gradient(90deg, #83d0f2, #83d0f2, #222, #222);
+    background:      -o-linear-gradient(90deg, #83d0f2, #83d0f2, #222, #222);
+    background:         linear-gradient(90deg, #83d0f2, #83d0f2, #222, #222);
+    background-size: 300% 300%;
+    background-position: 1% 50%;
+    transition: all 1s ease;
+    -webkit-transition: background 0.5s ease;
+    outline: none;
+    cursor: pointer;
+}
+
+.layer button:hover {
+    color: #83d0f2;
+    background-position: 99% 50%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登陆/注册弹出层</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <a href="#" id="registerLink">注册</a>
+        <a href="#" id="loginLink">登陆</a>
+    </div>
+    <!-- 遮罩层 -->
+    <div id="mask" class="mask"></div>
+    <!-- 登陆弹出层 -->
+    <div id="loginLayer" class="layer">
+        <h2 class="title">登 陆</h2>
+        <div class="item">
+            <span>账号</span>
+            <input type="text" name="username" id="loginUsername">
+        </div>
+        <div class="item">
+            <span>密码</span>
+            <input type="password" name="password" id="loginPassword">
+        </div>
+        <p id="loginError"></p>
+        <button id="loginSubmit">登陆</button>
+        <div class="close">×</div>
+    </div>
+    <!-- 注册弹出层 -->
+    <div id="registerLayer" class="layer">
+        <h2 class="title">注 册</h2>
+        <div class="item">
+            <span>账号</span>
+            <input type="text" name="username" id="registerUsername">
+        </div>
+        <div class="item">
+            <span>密码</span>
+            <input type="password" name="password" id="registerPassword">
+        </div>
+        <div class="item">
+            <span>重复密码</span>
+            <input type="password" name="repeatPsd" id="repeatPsd">
+        </div>
+        <p id="registerError"></p>
+        <button id="registerSubmit">注册</button>
+        <div class="close">×</div>
+    </div>
+</body>
+
+</html>
