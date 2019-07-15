@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li {
+    list-style: none;
+}
+
+div {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px #999;
+}
+
+span {
+    line-height: 80px;
+    display: block;
+    background: #a0cfe4;
+    border: 1px solid #e8c37e;
+}
+
+ul {
+    overflow: hidden;
+}
+
+.collapsed {
+    height: 0;
+}
+
+li {
+    line-height: 40px;
+    background: #e8c37e;
+}
+
+li:hover {
+    color: #fff;
+    cursor: pointer;
+}
