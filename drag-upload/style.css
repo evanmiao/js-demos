@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+#uploadList {
+    width: 920px;
+    margin: 40px auto;
+}
+
+#uploadList li {
+    position: relative;
+    float: left;
+    width: 164px;
+    height: 164px;
+    margin: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+}
+
+#uploadList li p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #888;
+}
+
+#uploadList .mask {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 164px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .7);
+    display: none;
+}
+
+#uploadList .mask:hover {
+    display: block;
+    cursor: pointer;
+}
+
+#uploadList .upload {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: opacity(0);
+    cursor: pointer;
+}
+
+/* 用户上传的图片 */
+#uploadList li img {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#uploadList li img:hover+.mask {
+    display: block;
+}
+
+.upload-btn {
+    position: absolute;
+    top: 440px;
+    left: 50%;
+    margin-left: -108px;
+    width: 216px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.upload-btn input {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: opacity(0);
+    cursor: pointer;
+}
