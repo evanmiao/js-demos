@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    margin: 50px;
+    position: relative;
+}
+
+.box ul li {
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.box ul li.active {
+    color: yellow;
+}
+
+.box ul li:hover {
+    cursor: pointer;
+}
+
+.box p {
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
