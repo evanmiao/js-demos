@@ -2,6 +2,7 @@
 日常练习
 
 ## demo预览地址
+- [侧边菜单](http://evanmiao.github.io/js-demos/side-menu)
 - [星级评分](http://evanmiao.github.io/js-demos/rate)
 - [省市区三级联动下拉菜单](http://evanmiao.github.io/js-demos/linkage-select)
 - [图片懒加载](http://evanmiao.github.io/js-demos/lazyload)
